@@ -10,9 +10,34 @@
   }
 
   /* shared style */
+
+.text-center{
+  text-align: center;
+}
+
   .text-primary{
     color:#FD6E0A ;
   }
+
+.section-title{
+font-size: 35px;
+font-weight: bold;
+color: #181818;
+
+}
+
+
+.section-decription{
+font-size: 18px;
+color: #757575;
+
+
+}
+
+.secondary-bg{
+  background-color: #fce1ce;
+
+}
 
   .dark-2{
     color:#474747;
@@ -101,4 +126,54 @@ margin: 0 35px 0 200px;
 
 .banner-profile{
   width: 580px; ;
+}
+
+/* main style */
+main{
+
+max-width: 1140px;
+margin: 0 auto;
+
+}
+
+main section{
+  margin-top: 130px;
+}
+
+
+
+
+/* About style */
+.about{
+border-radius: 10px;
+padding: 130px 150px;
+text-align: center;
+margin-top: 130px;
+
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.item-description{
+
+  font-weight: 600;
+}
+
+
+/* skill section */
+.skill-container{
+
+display: flex;
+gap: 24px;
+
+}
+
+.skill{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px #b8b5b5;
 }
